@@ -27,20 +27,36 @@
                         </group>
                         <group width="1" height="0.20000000000000001" alignment="center" id="ygU-6z-eq7">
                             <items>
-                                <button width="0.20000000000000001" height="1" alignment="left" title="7" id="j9E-MM-iHT"/>
+                                <button width="0.20000000000000001" height="1" alignment="left" title="7" id="j9E-MM-iHT">
+                                    <connections>
+                                        <action selector="seven" destination="AgC-eL-Hgc" id="YzS-B7-Qlr"/>
+                                    </connections>
+                                </button>
                                 <button width="0.20000000000000001" height="1" alignment="left" title="7" id="Cwa-z4-Hcf">
                                     <variation key="device=watch42mm" title="8"/>
+                                    <connections>
+                                        <action selector="eight" destination="AgC-eL-Hgc" id="b7c-yE-EXs"/>
+                                    </connections>
                                 </button>
                                 <button width="0.20000000000000001" height="1" alignment="left" title="7" id="T1r-gg-NmA">
                                     <variation key="device=watch42mm" title="9"/>
+                                    <connections>
+                                        <action selector="nine" destination="AgC-eL-Hgc" id="X0p-35-Z4n"/>
+                                    </connections>
                                 </button>
                                 <button width="100" height="1" alignment="left" title="7" id="V6H-F9-WsW">
                                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                     <variation key="device=watch42mm" title="÷" width="29"/>
+                                    <connections>
+                                        <action selector="divide" destination="AgC-eL-Hgc" id="Mwp-jC-kPJ"/>
+                                    </connections>
                                 </button>
                                 <button width="0.20000000000000001" height="1" alignment="left" title="7" id="9wp-HE-7V3">
                                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                     <variation key="device=watch42mm" title="%"/>
+                                    <connections>
+                                        <action selector="percTapped" destination="AgC-eL-Hgc" id="EKY-TW-kbW"/>
+                                    </connections>
                                 </button>
                             </items>
                             <variation key="default">
@@ -66,20 +82,35 @@
                             <items>
                                 <button width="0.20000000000000001" height="1" alignment="left" title="7" id="mzR-aB-Glb">
                                     <variation key="device=watch42mm" title="4"/>
+                                    <connections>
+                                        <action selector="four" destination="AgC-eL-Hgc" id="dKQ-px-h31"/>
+                                    </connections>
                                 </button>
                                 <button width="0.20000000000000001" height="1" alignment="left" title="7" id="7hK-fl-Jm0">
                                     <variation key="device=watch42mm" title="5"/>
+                                    <connections>
+                                        <action selector="five" destination="AgC-eL-Hgc" id="Skc-Pp-hg9"/>
+                                    </connections>
                                 </button>
                                 <button width="0.20000000000000001" height="1" alignment="left" title="7" id="5aD-kc-zx4">
                                     <variation key="device=watch42mm" title="6"/>
+                                    <connections>
+                                        <action selector="six" destination="AgC-eL-Hgc" id="fZi-LJ-4vq"/>
+                                    </connections>
                                 </button>
                                 <button width="0.20000000000000001" height="1" alignment="left" title="7" id="AjW-1b-GH4">
                                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                     <variation key="device=watch42mm" title="×"/>
+                                    <connections>
+                                        <action selector="multiply" destination="AgC-eL-Hgc" id="Cc3-4q-AzR"/>
+                                    </connections>
                                 </button>
                                 <button width="0.20000000000000001" height="1" alignment="left" title="M+" id="sXk-31-HaK">
                                     <color key="backgroundColor" red="1" green="0.5450980392" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
                                     <fontDescription key="font" type="system" pointSize="12"/>
+                                    <connections>
+                                        <action selector="memorySave" destination="AgC-eL-Hgc" id="dK9-7L-dll"/>
+                                    </connections>
                                 </button>
                             </items>
                             <variation key="default">
@@ -105,20 +136,35 @@
                             <items>
                                 <button width="0.20000000000000001" height="1" alignment="left" title="7" id="nKa-ft-20j">
                                     <variation key="device=watch42mm" title="1"/>
+                                    <connections>
+                                        <action selector="one" destination="AgC-eL-Hgc" id="I3N-80-7BM"/>
+                                    </connections>
                                 </button>
                                 <button width="0.20000000000000001" height="1" alignment="left" title="7" id="afZ-7L-Dgs">
                                     <variation key="device=watch42mm" title="2"/>
+                                    <connections>
+                                        <action selector="two" destination="AgC-eL-Hgc" id="eYi-GT-uGX"/>
+                                    </connections>
                                 </button>
                                 <button width="100" height="1" alignment="left" title="7" id="kpp-i1-WVj">
                                     <variation key="device=watch42mm" title="3" width="29"/>
+                                    <connections>
+                                        <action selector="three" destination="AgC-eL-Hgc" id="qVW-tK-tHu"/>
+                                    </connections>
                                 </button>
                                 <button width="0.20000000000000001" height="1" alignment="left" title="7" id="N9R-cK-bhh">
                                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                     <variation key="device=watch42mm" title="-"/>
+                                    <connections>
+                                        <action selector="minus" destination="AgC-eL-Hgc" id="czr-kj-fkx"/>
+                                    </connections>
                                 </button>
                                 <button width="0.20000000000000001" height="1" alignment="left" title="MR" id="D6x-G6-98S">
                                     <color key="backgroundColor" red="1" green="0.5450980392" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
                                     <fontDescription key="font" type="system" pointSize="11"/>
+                                    <connections>
+                                        <action selector="memoryRecall" destination="AgC-eL-Hgc" id="mRG-Vw-JPm"/>
+                                    </connections>
                                 </button>
                             </items>
                             <variation key="default">
@@ -144,21 +190,36 @@
                             <items>
                                 <button width="0.20000000000000001" height="1" alignment="left" title="7" id="igL-EY-lI4">
                                     <variation key="device=watch42mm" title="."/>
+                                    <connections>
+                                        <action selector="dot" destination="AgC-eL-Hgc" id="mwd-IE-Yms"/>
+                                    </connections>
                                 </button>
                                 <button width="0.20000000000000001" height="1" alignment="left" title="7" id="Ebe-kY-wnz">
                                     <variation key="device=watch42mm" title="0"/>
+                                    <connections>
+                                        <action selector="zero" destination="AgC-eL-Hgc" id="O1H-Dj-Ua2"/>
+                                    </connections>
                                 </button>
                                 <button width="0.20000000000000001" height="1" alignment="left" title="7" id="k4Q-OS-o2T">
                                     <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <variation key="device=watch42mm" title="C"/>
+                                    <connections>
+                                        <action selector="clear" destination="AgC-eL-Hgc" id="xao-xb-cOu"/>
+                                    </connections>
                                 </button>
                                 <button width="0.20000000000000001" height="1" alignment="left" title="7" id="S4m-2e-vYR">
                                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                     <variation key="device=watch42mm" title="+"/>
+                                    <connections>
+                                        <action selector="plus" destination="AgC-eL-Hgc" id="tCi-A0-1bZ"/>
+                                    </connections>
                                 </button>
                                 <button width="0.20000000000000001" height="1" alignment="left" title="=" id="nLJ-Af-xUH">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="equals" destination="AgC-eL-Hgc" id="Vll-qg-ucr"/>
+                                    </connections>
                                 </button>
                             </items>
                             <variation key="default">
@@ -199,9 +260,12 @@
                             <include reference="Sns-SS-BO4"/>
                         </mask>
                     </variation>
+                    <connections>
+                        <outlet property="two" destination="afZ-7L-Dgs" id="Ihf-Dy-fLh"/>
+                    </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="563.17948717948718" y="469.46153846153851"/>
+            <point key="canvasLocation" x="711.38461538461547" y="361.35897435897436"/>
         </scene>
     </scenes>
 </document>

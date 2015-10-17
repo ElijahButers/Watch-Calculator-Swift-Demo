@@ -27,5 +27,67 @@ class InterfaceController: WKInterfaceController {
         // This method is called when watch view controller is no longer visible
         super.didDeactivate()
     }
+    
+    //Actions
+    
+    @IBAction func dot() {
+    }
+    
+    @IBAction func zero() {
+    }
+    
+    @IBAction func one() {
+    }
+    
+    @IBAction func two() {
+    }
+    
+    @IBAction func three() {
+    }
+    
+    @IBAction func four() {
+    }
+    
+    @IBAction func five() {
+    }
 
+    @IBAction func six() {
+    }
+    
+    @IBAction func seven() {
+    }
+    
+    @IBAction func eight() {
+    }
+    
+    @IBAction func nine() {
+    }
+    
+    @IBAction func clear() {
+    }
+    
+    @IBAction func plus() {
+    }
+    
+    @IBAction func minus() {
+    }
+    
+    @IBAction func multiply() {
+    }
+    
+    @IBAction func divide() {
+    }
+    
+    @IBAction func percTapped() {
+    }
+    
+    @IBAction func equals() {
+    }
+    
+    @IBAction func memorySave() {
+    }
+    
+    @IBAction func memoryRecall() {
+    }
+    
 }
