@@ -11,6 +11,10 @@ import Foundation
 
 
 class InterfaceController: WKInterfaceController {
+    
+    func addDigit(digit: String) {
+        
+    }
 
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
@@ -31,36 +35,47 @@ class InterfaceController: WKInterfaceController {
     //Actions
     
     @IBAction func dot() {
+        addDigit(".")
     }
     
     @IBAction func zero() {
+        addDigit("0")
     }
     
     @IBAction func one() {
+        addDigit("1")
     }
     
     @IBAction func two() {
+        addDigit("2")
     }
     
     @IBAction func three() {
+        addDigit("3")
     }
     
     @IBAction func four() {
+        addDigit("4")
     }
     
     @IBAction func five() {
+        addDigit("5")
     }
 
     @IBAction func six() {
+        addDigit("6")
     }
     
     @IBAction func seven() {
+        addDigit("7")
     }
     
     @IBAction func eight() {
+        addDigit("8")
     }
     
     @IBAction func nine() {
+        addDigit("9")
     }
     
     @IBAction func clear() {
