@@ -238,9 +238,14 @@ class InterfaceController: WKInterfaceController {
     }
     
     @IBAction func memorySave() {
+        
+        defaults.setObject(String(displayValue), forKey: "savednumber")
+
     }
     
     @IBAction func memoryRecall() {
+        
+        
     }
     
     
