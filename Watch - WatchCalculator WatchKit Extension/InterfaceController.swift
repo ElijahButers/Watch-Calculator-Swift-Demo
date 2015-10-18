@@ -245,7 +245,11 @@ class InterfaceController: WKInterfaceController {
     
     @IBAction func memoryRecall() {
         
-        
+        if let savednumber = defaults.stringForKey("savednumber") {
+            displayValue = NSNumberFormatter().numberFromString(savednumber)!.doubleValue
+            display.setText(savednumber)
+        }
+
     }
     
     
