@@ -101,6 +101,16 @@ class InterfaceController: WKInterfaceController {
     }
     
     @IBAction func clear() {
+        
+        //Reset everything
+        
+        numberOne = 0
+        numberTwo = 0
+        displayValue = 0
+        totalValue = ""
+        display.setText("0")
+        userIsTypingNumber = false
+        currentOperator = ""
     }
     
     @IBAction func plus() {
