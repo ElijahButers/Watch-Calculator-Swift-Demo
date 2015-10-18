@@ -179,6 +179,27 @@ class InterfaceController: WKInterfaceController {
     }
     
     @IBAction func percTapped() {
+        
+        switch currentOperator {
+            case "plus":
+                numberTwo = displayValue
+                displayValue = (numberTwo/100) * numberOne
+                display.setText(String(displayValue))
+            case "minus":
+                numberTwo = displayValue
+                displayValue = (numberTwo/100) * numberOne
+                display.setText(String(displayValue))
+            case "multiply":
+                numberTwo = displayValue
+                displayValue = (numberTwo/100)
+                display.setText(String(displayValue))
+            case "divide":
+                numberTwo = displayValue
+                displayValue = (numberTwo/100)
+                display.setText(String(displayValue))
+            default:
+                break
+        }
     }
     
     @IBAction func equals() {
