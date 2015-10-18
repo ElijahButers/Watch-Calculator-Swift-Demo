@@ -14,8 +14,6 @@ class InterfaceController: WKInterfaceController {
     
     @IBOutlet var display: WKInterfaceLabel!
     
-    func addDigit(digit: String) {
-    }
     
     var displayValue: Double = 0
     var totalValue = ""
@@ -40,6 +38,21 @@ class InterfaceController: WKInterfaceController {
         // This method is called when watch view controller is no longer visible
         super.didDeactivate()
     }
+    
+    func addDigit(digit: String) {
+        
+        if userIsTypingNumber == false {
+            display.setText(digit)
+            totalValue = digit
+            displayValue = NSNumberFormatter().numberFromString(totalValue)!.doubleValue
+            userIsTypingNumber = true
+        } else if userIsTypingNumber == true {
+            totalValue = totalValue.stringByAppendingString(digit)
+            displayValue = NSNumberFormatter().numberFromString(totalValue)!.doubleValue
+            display.setText(totalValue)
+        }
+    }
+
     
     //Actions
     
@@ -113,5 +126,8 @@ class InterfaceController: WKInterfaceController {
     
     @IBAction func memoryRecall() {
     }
+    
+    
+    
     
 }
