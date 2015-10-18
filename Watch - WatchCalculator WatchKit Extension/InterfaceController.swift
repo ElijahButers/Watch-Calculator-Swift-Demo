@@ -147,8 +147,6 @@ class InterfaceController: WKInterfaceController {
     }
     
     @IBAction func multiply() {
-        
-        
     }
     
     @IBAction func divide() {
