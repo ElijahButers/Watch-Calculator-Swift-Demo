@@ -12,8 +12,9 @@ import Foundation
 
 class InterfaceController: WKInterfaceController {
     
+    @IBOutlet var display: WKInterfaceLabel!
+    
     func addDigit(digit: String) {
-        
     }
 
     override func awakeWithContext(context: AnyObject?) {
