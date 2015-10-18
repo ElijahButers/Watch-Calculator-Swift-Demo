@@ -114,9 +114,25 @@ class InterfaceController: WKInterfaceController {
     }
     
     @IBAction func plus() {
+        
+        currentOperator = "plus"
+        userIsTypingNumber = false
+        
+        if numberOne == 0 && numberTwo == 0 {
+            numberOne = displayValue
+        } else if numberOne != 0 && numberTwo == 0 {
+            numberTwo = displayValue
+            displayValue = numberOne + numberTwo
+            display.setText(String(displayValue))
+            numberOne = displayValue
+            numberTwo = 0
+        }
+
     }
     
     @IBAction func minus() {
+        
+        
     }
     
     @IBAction func multiply() {
