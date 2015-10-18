@@ -16,6 +16,14 @@ class InterfaceController: WKInterfaceController {
     
     func addDigit(digit: String) {
     }
+    
+    var displayValue: Double = 0
+    var totalValue = ""
+    var currentOperator = ""
+    var numberOne: Double = 0
+    var numberTwo: Double = 0
+    var userIsTypingNumber = false
+    var defaults = NSUserDefaults.standardUserDefaults()
 
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
