@@ -203,6 +203,38 @@ class InterfaceController: WKInterfaceController {
     }
     
     @IBAction func equals() {
+        
+        userIsTypingNumber = false
+        
+        switch currentOperator {
+            
+            case "plus":
+                numberTwo = displayValue
+                displayValue = (numberOne + numberTwo)
+                display.setText(String(displayValue))
+                numberOne = 0
+                numberTwo = 0
+            case "minus":
+                numberTwo = displayValue
+                displayValue = (numberOne - numberTwo)
+                display.setText(String(displayValue))
+                numberOne = 0
+                numberTwo = 0
+            case "multiply":
+                numberTwo = displayValue
+                displayValue = (numberOne * numberTwo)
+                display.setText(String(displayValue))
+                numberOne = 0
+                numberTwo = 0
+            case "divide":
+                numberTwo = displayValue
+                displayValue = (numberOne / numberTwo)
+                display.setText(String(displayValue))
+                numberOne = 0
+                numberTwo = 0
+            default:
+                break
+        }
     }
     
     @IBAction func memorySave() {
